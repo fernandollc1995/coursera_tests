@@ -39,7 +39,9 @@ p.section-description{
     clear: right;
     padding: 1em;
 }
-
+body{
+    padding: 0 1%;
+}
 /* Responsive Section */
 
 @media (min-width:992px){
@@ -51,6 +53,7 @@ p.section-description{
     .col-lg-4{
         width: 31.3%;
     }
+
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -64,5 +67,6 @@ p.section-description{
     .col-md-12{
         width: 98%;
     }
+
 }
 
