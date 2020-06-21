@@ -1,0 +1,68 @@
+/* General Configuration */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif, Helvetica, Arial;
+}
+
+/* Styles Section */
+
+h1{
+    font-size: 1.75em;
+    text-align: center;
+    padding: 1em;
+}
+div{
+    border: 1px solid black;
+    background-color: grey ;
+    margin: 0.8em;
+}
+h2.section-subtitle{
+    font-size: 1.25em;
+    float: right;
+    border: 1px solid black;
+    padding: 0.2em 0.6em;
+}
+div:nth-child(2) h2{
+    background-color: green;
+}
+div:nth-child(3) h2{
+    background-color:brown;
+}
+div:nth-child(4) h2{
+    background-color:coral;
+}
+p.section-description{
+    clear: right;
+    padding: 1em;
+}
+
+/* Responsive Section */
+
+@media (min-width:992px){
+    .col-lg-4{
+        float: left;
+        margin: 1% 1%;
+    }
+
+    .col-lg-4{
+        width: 31.3%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .col-md-6, .col-md-12{
+        float: left;
+        margin: 1% 1%;
+    }
+    .col-md-6{
+        width: 48%;
+    }
+    .col-md-12{
+        width: 98%;
+    }
+}
+
